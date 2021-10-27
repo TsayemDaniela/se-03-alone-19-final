@@ -1,0 +1,60 @@
+
+.bg-nav{
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mt-100{
+    margin-top:100px;
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr{
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.btn-container{
+    text-align:center;
+    margin-top: 40px;
+}
+
+.ibtn{
+    border:1px solid #009879;
+    background:#fff;
+    padding:7px 14px;
+    font-size: 16px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 5px;
+    color:#009879;
+}
+
+.ibtn:hover{
+    background:#009879 ;
+    color: #ffffff;
+}
